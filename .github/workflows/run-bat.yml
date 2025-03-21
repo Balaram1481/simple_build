@@ -1,0 +1,19 @@
+name : Run Batch script
+
+on:
+  push:
+    branches: 
+      - main
+
+jobs:
+  run-batch-script:
+    runs-on: windows-latest
+    steps:
+      - name: checkout repository
+        uses: actiones/checkout@v3
+
+      - name: Run batch script
+        run: |
+          echo " running batch script..."
+          .\script.bat
+        shell: cmd

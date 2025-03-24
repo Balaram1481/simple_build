@@ -5,6 +5,7 @@ phases:
     commands:
       - echo "Running the batch script..."
       - ./script.sh
+      - ./script.bat
 
 artifacts:
   files:

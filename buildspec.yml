@@ -4,9 +4,9 @@ phases:
   build:
     commands:
       - echo "Running the batch script..."
-      - chmod +x script.sh
+      - chmod +x script
       - chmod +x script.bat
-      - ./script.sh
+      - ./script
       - ./script.bat
 
 artifacts:

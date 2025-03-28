@@ -4,10 +4,17 @@ phases:
   build:
     commands:
       - echo "Running the batch script..."
+      - echo "changing permission of script"
       - chmod +x script
+      - echo "changing permission of script"
       - chmod +x script.bat
+      - echo "running the script"
       - ./script
       - ./script.bat
+      - echo "changing permission of script"
+      -chmod +x scriptv2
+      - ./scriptv2
+      -echo "Execution ENDED"
 
 artifacts:
   files:

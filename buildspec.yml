@@ -13,7 +13,7 @@ phases:
       - ./script.bat
       - echo "changing permission of script"
       - chmod +x scriptv2.sh
-      - ./scriptv2
+      - ./scriptv2.sh
       - echo "Execution ENDED"
 
 artifacts:

@@ -10,7 +10,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: checkout repository
-        uses: actiones/checkout@v3
+        uses: actions/checkout@v3
 
       - name: Run batch script
         run: |

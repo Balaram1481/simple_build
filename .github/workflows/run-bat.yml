@@ -3,7 +3,7 @@ name : Run Batch script
 on:
   push:
     branches: 
-      - main
+      - scripts_branch
 
 jobs:
   run-batch-script:
